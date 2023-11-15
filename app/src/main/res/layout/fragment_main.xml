@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="110dp">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/increase_button"
+            android:textSize="20dp"
+            android:backgroundTint="@color/blue_color"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="8dp"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/decrease_button"
+            android:textSize="20dp"
+            android:backgroundTint="@color/red_color"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="8dp"
+            android:text="-1" />
+    </LinearLayout>
+</LinearLayout>
